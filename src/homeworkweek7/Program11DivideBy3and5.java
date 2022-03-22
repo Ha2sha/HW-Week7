@@ -14,8 +14,8 @@ public class Program11DivideBy3and5 {
             }
         }
 
-        System.out.println("Numbers divided by 5 are: ");
-        for (int i = 0; i <= 100; i++)////loop until i reaches 100
+        System.out.println("\nNumbers divided by 5 are: ");
+        for (int i = 0; i <= 100; i++)//loop until i reaches 100
         {
             if (i % 5 == 0)//if remainder zero than it is divisible by 5
             {

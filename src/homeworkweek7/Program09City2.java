@@ -7,13 +7,18 @@ package homeworkweek7;
 import java.util.Scanner;
 
 public class Program09City2 {
+
+    public static char lowerCase(char c){
+        char ch= Character.toLowerCase(c);//converts character to lowercase
+        return ch;
+    }
     public static void main(String[] args) {
         Scanner scr = new Scanner(System.in);
         System.out.println("Enter any Alphabet: ");
 
         char city = scr.next().charAt(0);//reads 1st alphabet
 
-        switch (city) {
+        switch (lowerCase(city)) {
             case 'a':
                 System.out.println("Ahmedabad");
                 break;

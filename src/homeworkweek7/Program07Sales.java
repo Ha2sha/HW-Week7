@@ -13,7 +13,7 @@ public class Program07Sales {
         System.out.println("Enter Seller's Name: ");
         String sName = scr.nextLine();//reads user input
         System.out.println("Enter Sales ID: ");
-        int sID = scr.nextInt();//reads user input
+        int Id = scr.nextInt();//reads user input
         System.out.println("Enter Sales Amount: ");
         int sales = scr.nextInt();//reads user input
         System.out.println("Enter Basic Salary: ");

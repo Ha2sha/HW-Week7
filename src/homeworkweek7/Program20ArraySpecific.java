@@ -4,6 +4,7 @@ Write a Java program to test if an array contains a specific value.
 package homeworkweek7;
 
 public class Program20ArraySpecific {
+
     public static boolean contains(int a[],int item)//created return type method
     {
         for (int n : a) {

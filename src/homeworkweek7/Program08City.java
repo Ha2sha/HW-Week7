@@ -13,13 +13,13 @@ public class Program08City {
 
         char city = scr.next().charAt(0);//reads 1st alphabet
 
-        if (city == 'a') {
+        if (city == 'a' || city=='A') {
             System.out.println("Ahmedabad");
-        } else if (city == 'b') {
+        } else if (city == 'b' || city == 'B') {
             System.out.println("Baroda");
-        } else if (city == 'c') {
+        } else if (city == 'c' || city == 'C') {
             System.out.println("Chennai");
-        } else if (city == 'd') {
+        } else if (city == 'd' || city == 'D') {
             System.out.println("Delhi");
         } else if (city == 'e') {
             System.out.println("Erode");

@@ -70,15 +70,15 @@ public class Program03MarkSheet {
         }
 
         if (b >= 80) {
-            System.out.println("|     Grade       :     A+       |");
+            System.out.println("|      Grade      :      A+      |");
         } else if (b >= 60 && b < 70) {
-            System.out.println("|     Grade       :     A        |");
+            System.out.println("|      Grade      :      A       |");
         } else if (b >= 50 && b < 60) {
-            System.out.println("|     Grade       :     B        |");
+            System.out.println("|      Grade      :      B       |");
         } else if (b >= 35 && b < 50) {
-            System.out.println("|     Grade       :     C        |");
+            System.out.println("|      Grade      :      C       |");
         } else {
-            System.out.println("|     Grade       :     Fail     |");
+            System.out.println("|      Grade      :      Fail    |");
         }
         System.out.println("|________________________________|");
 
